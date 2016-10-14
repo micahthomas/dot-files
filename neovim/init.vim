@@ -42,6 +42,10 @@ Plug 'tpope/vim-commentary'
 Plug 'bkad/CamelCaseMotion'
 " Heuristically set indent settings
 Plug 'tpope/vim-sleuth'
+" Better File Explorer
+Plug 'scrooloose/nerdtree'
+" Split window with Project drawer
+Plug 'dhruvasagar/vim-vinegar'
 "}}}
 
 " ---------------------------------------------------------------------------------------------------------------------
@@ -135,7 +139,7 @@ Plug 'dyng/ctrlsf.vim', { 'on': ['CtrlSF', 'CtrlSFToggle'] }
 " ---------------------------------------------------------------------------------------------------------------------
 
 " Nerdtree file browser
-Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeFind', 'NERDTreeToggle'] }
+Plug 'scrooloose/nerdtree'
 " Lightline (simple status line)
 Plug 'itchyny/lightline.vim'
 " Buffers tabline
@@ -1202,6 +1206,9 @@ hi! link BufTabLineFill Comment
 " 7.0 Autocommands
 " ======================================================================================================================
 "{{{
+" Open NERDTree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Keywordprg settings {{{
 autocmd FileType vim setlocal keywordprg=:help

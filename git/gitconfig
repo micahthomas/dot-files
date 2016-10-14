@@ -1,6 +1,6 @@
 [user]
-    name = Martin Toma
-    email = martin.toma.svk@gmail.com
+    name = Micah Thomas
+    email = micahthomas4@gmail.com
 [credential]
     helper = cache --timeout=3600
 [core]
