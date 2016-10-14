@@ -1,7 +1,14 @@
 # Note:
 
-This is a fork of martin-svk/dot-files. I will be focusing on archlinux. Will be updating the install.sh to work with
-ArchLinux
+This is a fork of martin-svk/dot-files. I will be focusing on archlinux.
+
+## Goals:
+
+* Convert Install script to work with ArchLinux
+* Add Termite Configuration
+* Add i3wm Configuration
+* Remove Ruby & Gem Requirements
+* Add a Default Font
 
 # Well documented, terminal centric web developer's dot files
 
