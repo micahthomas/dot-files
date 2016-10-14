@@ -1,3 +1,8 @@
+# Note:
+
+This is a fork of martin-svk/dot-files. I will be focusing on archlinux. Will be updating the install.sh to work with
+ArchLinux
+
 # Well documented, terminal centric web developer's dot files
 
 Hey everybody. I am Martin, a software developer with an obsession for workflow improvement.

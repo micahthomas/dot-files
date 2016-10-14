@@ -43,7 +43,7 @@ plugins=(adb bgnotify bower bundler common-aliases docker extract gem gitfast gu
 # Oh my zsh
 source $ZSH/oh-my-zsh.sh
 source $ZSH/plugins/history-substring-search/history-substring-search.zsh
-
+source ~/.bash_profile
 # =====================================================================================================================
 # Plugin bindings
 # =====================================================================================================================
